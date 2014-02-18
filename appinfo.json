@@ -1,0 +1,17 @@
+{
+  "uuid": "30b33bd6-5239-47d4-9c30-5c0245206019",
+  "shortName": "Scanner",
+  "longName": "Scanner",
+  "companyName": "Jukaela Enterprises",
+  "versionCode": 2,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}

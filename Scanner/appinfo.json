@@ -1,0 +1,17 @@
+{
+  "uuid": "69d8a052-a7ba-43f7-af39-98e9065f7d57",
+  "shortName": "Scanner",
+  "longName": "Scanner",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}

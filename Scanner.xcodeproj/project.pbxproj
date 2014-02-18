@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2965EB1C18AC79F0003E896B /* appinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = appinfo.json; sourceTree = "<group>"; };
+		2965EB1E18AC79F0003E896B /* .lock-waf_darwin_build */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".lock-waf_darwin_build"; sourceTree = "<group>"; };
+		2965EB1F18AC79F0003E896B /* .wafpickle-darwin-34014704-98 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ".wafpickle-darwin-34014704-98"; sourceTree = "<group>"; };
+		2965EB2018AC79F0003E896B /* app_resources.pbpack */ = {isa = PBXFileReference; lastKnownFileType = file; path = app_resources.pbpack; sourceTree = "<group>"; };
+		2965EB2118AC79F0003E896B /* app_resources.pbpack.data */ = {isa = PBXFileReference; lastKnownFileType = text; path = app_resources.pbpack.data; sourceTree = "<group>"; };
+		2965EB2218AC79F0003E896B /* app_resources.pbpack.manifest */ = {isa = PBXFileReference; lastKnownFileType = file; path = app_resources.pbpack.manifest; sourceTree = "<group>"; };
+		2965EB2318AC79F0003E896B /* app_resources.pbpack.table */ = {isa = PBXFileReference; lastKnownFileType = file; path = app_resources.pbpack.table; sourceTree = "<group>"; };
+		2965EB2418AC79F0003E896B /* appinfo.auto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = appinfo.auto.c; sourceTree = "<group>"; };
+		2965EB2518AC79F0003E896B /* appinfo.auto.c.7.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = appinfo.auto.c.7.o; sourceTree = "<group>"; };
+		2965EB2718AC79F0003E896B /* _cache.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = _cache.py; sourceTree = "<group>"; };
+		2965EB2818AC79F0003E896B /* build.config.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = build.config.py; sourceTree = "<group>"; };
+		2965EB2918AC79F0003E896B /* config.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.log; sourceTree = "<group>"; };
+		2965EB2A18AC79F0003E896B /* hello_world.pbw */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello_world.pbw; sourceTree = "<group>"; };
+		2965EB2B18AC79F0003E896B /* pebble-app.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "pebble-app.bin"; sourceTree = "<group>"; };
+		2965EB2C18AC79F0003E896B /* pebble-app.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pebble-app.elf"; sourceTree = "<group>"; };
+		2965EB2D18AC79F0003E896B /* pebble-app.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pebble-app.map"; sourceTree = "<group>"; };
+		2965EB2E18AC79F0003E896B /* pebble-app.raw.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "pebble-app.raw.bin"; sourceTree = "<group>"; };
+		2965EB3018AC79F0003E896B /* hello_world.c.7.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = hello_world.c.7.o; sourceTree = "<group>"; };
+		2965EB3118AC79F0003E896B /* resource_ids.auto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource_ids.auto.h; sourceTree = "<group>"; };
+		2965EB3518AC79F0003E896B /* wscript */ = {isa = PBXFileReference; lastKnownFileType = text; path = wscript; sourceTree = "<group>"; };
+		296617C418B2FB01007CBBEE /* Scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Scanner.h; path = Scanner/src/Scanner.h; sourceTree = SOURCE_ROOT; };
+		29C38CD018B185E1005D5E2A /* pebble_app_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pebble_app_info.h; path = Scanner/src/pebble_app_info.h; sourceTree = SOURCE_ROOT; };
+		29C38CD118B185E1005D5E2A /* pebble_fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pebble_fonts.h; path = Scanner/src/pebble_fonts.h; sourceTree = SOURCE_ROOT; };
+		29C38CD218B185E1005D5E2A /* pebble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pebble.h; path = Scanner/src/pebble.h; sourceTree = SOURCE_ROOT; };
+		29C38CD318B185E1005D5E2A /* Scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Scanner.c; path = Scanner/src/Scanner.c; sourceTree = SOURCE_ROOT; };
+		29C38CD818B27971005D5E2A /* setup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setup.png; sourceTree = "<group>"; };
+		29C38CD918B2799D005D5E2A /* resource_map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resource_map.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2965EB1118AC7997003E896B = {
+			isa = PBXGroup;
+			children = (
+				2965EB1C18AC79F0003E896B /* appinfo.json */,
+				2965EB1D18AC79F0003E896B /* build */,
+				2965EB3218AC79F0003E896B /* resources */,
+				2965EB3318AC79F0003E896B /* src */,
+				2965EB3518AC79F0003E896B /* wscript */,
+			);
+			sourceTree = "<group>";
+		};
+		2965EB1D18AC79F0003E896B /* build */ = {
+			isa = PBXGroup;
+			children = (
+				2965EB1E18AC79F0003E896B /* .lock-waf_darwin_build */,
+				2965EB1F18AC79F0003E896B /* .wafpickle-darwin-34014704-98 */,
+				2965EB2018AC79F0003E896B /* app_resources.pbpack */,
+				2965EB2118AC79F0003E896B /* app_resources.pbpack.data */,
+				2965EB2218AC79F0003E896B /* app_resources.pbpack.manifest */,
+				2965EB2318AC79F0003E896B /* app_resources.pbpack.table */,
+				2965EB2418AC79F0003E896B /* appinfo.auto.c */,
+				2965EB2518AC79F0003E896B /* appinfo.auto.c.7.o */,
+				2965EB2618AC79F0003E896B /* c4che */,
+				2965EB2918AC79F0003E896B /* config.log */,
+				2965EB2A18AC79F0003E896B /* hello_world.pbw */,
+				2965EB2B18AC79F0003E896B /* pebble-app.bin */,
+				2965EB2C18AC79F0003E896B /* pebble-app.elf */,
+				2965EB2D18AC79F0003E896B /* pebble-app.map */,
+				2965EB2E18AC79F0003E896B /* pebble-app.raw.bin */,
+				2965EB2F18AC79F0003E896B /* src */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		2965EB2618AC79F0003E896B /* c4che */ = {
+			isa = PBXGroup;
+			children = (
+				2965EB2718AC79F0003E896B /* _cache.py */,
+				2965EB2818AC79F0003E896B /* build.config.py */,
+			);
+			path = c4che;
+			sourceTree = "<group>";
+		};
+		2965EB2F18AC79F0003E896B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2965EB3018AC79F0003E896B /* hello_world.c.7.o */,
+				2965EB3118AC79F0003E896B /* resource_ids.auto.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2965EB3218AC79F0003E896B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				29C38CD618B27971005D5E2A /* src */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		2965EB3318AC79F0003E896B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				296617C518B2FC2A007CBBEE /* Pebble Includes */,
+				296617C418B2FB01007CBBEE /* Scanner.h */,
+				29C38CD318B185E1005D5E2A /* Scanner.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		296617C518B2FC2A007CBBEE /* Pebble Includes */ = {
+			isa = PBXGroup;
+			children = (
+				29C38CD018B185E1005D5E2A /* pebble_app_info.h */,
+				29C38CD118B185E1005D5E2A /* pebble_fonts.h */,
+				29C38CD218B185E1005D5E2A /* pebble.h */,
+			);
+			name = "Pebble Includes";
+			sourceTree = "<group>";
+		};
+		29C38CD618B27971005D5E2A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				29C38CD718B27971005D5E2A /* images */,
+				29C38CD918B2799D005D5E2A /* resource_map.json */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		29C38CD718B27971005D5E2A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				29C38CD818B27971005D5E2A /* setup.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		2965EB1818AC79DF003E896B /* Scanner */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = build;
+			buildConfigurationList = 2965EB1918AC79DF003E896B /* Build configuration list for PBXLegacyTarget "Scanner" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/jbarrow/pebble-dev/bin/pebble";
+			buildWorkingDirectory = "$(PROJECT_DIR)/Scanner";
+			dependencies = (
+			);
+			name = Scanner;
+			passBuildSettingsInEnvironment = 1;
+			productName = HelloWorld;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		2965EB1218AC7997003E896B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 2965EB1518AC7997003E896B /* Build configuration list for PBXProject "Scanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2965EB1118AC7997003E896B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2965EB1818AC79DF003E896B /* Scanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2965EB1618AC7997003E896B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2965EB1718AC7997003E896B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		2965EB1A18AC79DF003E896B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"/Users/jbarrow/pebble-dev/Pebble/include\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2965EB1B18AC79DF003E896B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"/Users/jbarrow/pebble-dev/Pebble/include\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2965EB1518AC7997003E896B /* Build configuration list for PBXProject "Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2965EB1618AC7997003E896B /* Debug */,
+				2965EB1718AC7997003E896B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2965EB1918AC79DF003E896B /* Build configuration list for PBXLegacyTarget "Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2965EB1A18AC79DF003E896B /* Debug */,
+				2965EB1B18AC79DF003E896B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2965EB1218AC7997003E896B /* Project object */;
+}
