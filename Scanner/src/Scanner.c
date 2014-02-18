@@ -171,9 +171,6 @@ static void window_unload(Window *window)
     
     // Destroy the action_bar
     action_bar_layer_destroy(action_bar);
-    
-    // Destroy the window
-    window_destroy(window);
 }
 
 // App Initilization
